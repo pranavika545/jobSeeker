@@ -10,7 +10,7 @@ public class DAO
 		try
 		{
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			this.conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/jobseeker", "root", "mannasamudram");
+			this.conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/jobseeker", "root", "password");
 		}
 		catch (Exception e)
 		{
